@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sentencia · {{OFERTA}}</title>
+<style>
+:root{--bg:#0b0b0d;--tile:#16161a;--hair:rgba(255,255,255,.09);--t:#f4f4f5;--t2:rgba(244,244,245,.7);--t3:rgba(244,244,245,.45);--v:{{COLOR}}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:16px/1.5 -apple-system,BlinkMacSystemFont,Inter,system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding:48px 18px 80px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--t3);font-weight:700}
+h1{font-size:clamp(30px,6vw,52px);letter-spacing:-.04em;line-height:1.05;margin:10px 0 0}
+.veredicto{margin:28px 0;padding:28px;border-radius:24px;background:var(--tile);box-shadow:inset 0 0 0 1px var(--hair);display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+@media(max-width:700px){.veredicto{grid-template-columns:1fr}}
+.veredicto .v{font-size:clamp(40px,9vw,76px);font-weight:900;letter-spacing:-.04em;color:var(--v);line-height:1}
+.veredicto p{color:var(--t2);margin:12px 0 0;max-width:560px}
+.marcador{text-align:center}.marcador .n{font-size:22px;font-weight:800}.marcador .n b{font-size:44px}
+.fichas{display:grid;grid-template-columns:repeat(6,22px);gap:6px;margin-top:10px;justify-content:center}
+.f{width:22px;height:22px;border-radius:50%}.f.si{background:#30D158}.f.no{background:#FF453A}
+h2{font-size:24px;letter-spacing:-.03em;margin:44px 0 14px}
+ol.cambios{list-style:none;padding:0;margin:0;display:grid;gap:12px;counter-reset:c}
+ol.cambios li{counter-increment:c;position:relative;background:var(--tile);border-radius:20px;padding:20px 20px 20px 64px;box-shadow:inset 0 0 0 1px var(--hair)}
+ol.cambios li::before{content:counter(c);position:absolute;left:20px;top:20px;width:30px;height:30px;border-radius:50%;background:var(--v);color:#111;font-weight:800;display:grid;place-items:center}
+ol.cambios p{margin:6px 0 0;color:var(--t2)}.mueve{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:#30D158}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:700px){.dos{grid-template-columns:1fr}}
+.dato{background:var(--tile);border-radius:20px;padding:20px;box-shadow:inset 0 0 0 1px var(--hair)}.dato .k{font-size:13px;color:var(--t3);font-weight:600}.dato .x{font-size:20px;font-weight:800;margin-top:6px}
+.votos{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.voto{background:var(--tile);border-radius:20px;padding:18px;box-shadow:inset 0 0 0 1px var(--hair)}
+.voto .cab{display:flex;justify-content:space-between;gap:10px;align-items:center}.voto .cab span{font-size:12px;font-weight:800;padding:4px 10px;border-radius:99px;white-space:nowrap}
+.voto.si .cab span{background:rgba(48,209,88,.15);color:#30D158}.voto.no .cab span{background:rgba(255,69,58,.15);color:#FF453A}
+.frase{font-size:15px;margin:10px 0 8px}.obj{font-size:13px;color:var(--t2);margin:4px 0}.obj i{color:var(--t3);font-style:normal;font-weight:600}
+</style></head><body><main>
+<div class="eyebrow">Sentencia del jurado</div>
+<h1>{{OFERTA}}</h1>
+<section class="veredicto"><div><div class="v">{{VEREDICTO}}</div><p>{{RESUMEN}}</p></div>
+  <div class="marcador"><div class="n"><b>{{COMPRO}}</b> compran · <b>{{NOCOMPRO}}</b> no</div><div class="fichas">{{FICHAS}}</div></div></section>
+<h2>Los 3 cambios del juez</h2>
+<ol class="cambios">{{CAMBIOS}}</ol>
+<h2>Lo que hay que saber</h2>
+<div class="dos"><div class="dato"><div class="k">Precio que soporta el jurado</div><div class="x">{{PRECIO}}</div></div>
+  <div class="dato"><div class="k">El argumento que mejor funcionó</div><div class="x" style="font-size:16px;font-weight:600">{{ARGUMENTO}}</div></div></div>
+<h2>Los 12 votos</h2>
+<div class="votos">{{VOTOS}}</div>
+</main></body></html>

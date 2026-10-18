@@ -1,0 +1,20 @@
+{"oferta": "Mentoría «Agenda llena» para fisioterapeutas · 1.500 €", "veredicto": "AJÚSTALA", "compro": 5, "no_compro": 7,
+ "resumen": "La promesa interesa, pero no se cree: no hay casos de fisios ni un plazo concreto, y 1.500 € de golpe asusta a quien aún no llena la agenda.",
+ "cambios": [
+  {"titulo": "Pon 3 casos de fisios con nombre, ciudad y cifra", "detalle": "«Laura, Valencia: de 14 a 31 pacientes al mes en 8 semanas». Sin casos del mismo oficio, el escéptico y la que ya lo intentó sola no compran.", "votos": 3},
+  {"titulo": "Cambia «llena tu agenda» por un resultado con fecha", "detalle": "«10 pacientes nuevos en 60 días o sigues gratis hasta conseguirlo». Convierte una promesa vaga en una garantía que se puede comprobar.", "votos": 2},
+  {"titulo": "Ofrece 3 pagos de 550 €", "detalle": "El precio total no es el problema: es pagarlo de golpe. Con plazos, la que mira cada euro y la que tiene que justificarlo pasan a COMPRO.", "votos": 2}],
+ "precio_jurado": "1.200 € (o 3 × 450 €)", "mejor_argumento": "«Cada hueco vacío en tu agenda son 45 € que no vuelven: con 4 pacientes más al mes ya está pagada.»",
+ "votos": [
+  {"jurado": "La que mira cada euro", "voto": "NO COMPRO", "frase": "1.500 de golpe con la consulta medio vacía, no.", "objecion": "Pago único sin retorno claro", "cambiaria_si": "Plazos y cuántos pacientes necesito para recuperarlo", "pagaria": "3 × 450 €"},
+  {"jurado": "El que no acaba cursos", "voto": "COMPRO", "frase": "Si hay llamadas cada semana, esta vez sí lo termino.", "objecion": "Le convence el acompañamiento semanal", "cambiaria_si": "—", "pagaria": "1.500 €"},
+  {"jurado": "Tu competencia", "voto": "NO COMPRO", "frase": "Es lo de siempre: Instagram y Google Maps.", "objecion": "No hay método propio", "cambiaria_si": "Un sistema con nombre y pasos que no vea en otro sitio", "pagaria": "0 €"},
+  {"jurado": "El escéptico quemado", "voto": "NO COMPRO", "frase": "Enséñame un fisio de verdad que lo haya conseguido.", "objecion": "Cero casos de su oficio", "cambiaria_si": "3 casos de fisios con nombre y cifras", "pagaria": "800 €"},
+  {"jurado": "La impulsiva", "voto": "COMPRO", "frase": "Agenda llena, me apunto ya.", "objecion": "Le convence la promesa", "cambiaria_si": "—", "pagaria": "1.500 €"},
+  {"jurado": "El que lo quiere para ayer", "voto": "NO COMPRO", "frase": "¿En cuánto tiempo? No lo dice.", "objecion": "Sin plazo", "cambiaria_si": "Primer paciente nuevo en 14 días", "pagaria": "1.200 €"},
+  {"jurado": "La que tiene que justificarlo", "voto": "NO COMPRO", "frase": "No sabría explicárselo a mi socio.", "objecion": "No hay entregables claros", "cambiaria_si": "Plan por escrito y pago a plazos", "pagaria": "1.000 €"},
+  {"jurado": "El que compra a la persona", "voto": "COMPRO", "frase": "Me fío de él, lleva años con fisios.", "objecion": "Le convence quién lo vende", "cambiaria_si": "—", "pagaria": "1.500 €"},
+  {"jurado": "La que ya lo intentó sola", "voto": "NO COMPRO", "frase": "Ya hice reels y no me llegó nadie.", "objecion": "No explica qué es distinto de lo que probó", "cambiaria_si": "Casos de fisios que fallaron solos y lo lograron aquí", "pagaria": "900 €"},
+  {"jurado": "El de «esto está gratis en YouTube»", "voto": "NO COMPRO", "frase": "Esto lo explican gratis en mil vídeos.", "objecion": "Parece información", "cambiaria_si": "Que se lo monten y revisen", "pagaria": "600 €"},
+  {"jurado": "La que no tiene tiempo", "voto": "COMPRO", "frase": "Si son 2 horas a la semana, me cuadra.", "objecion": "Le convence el poco tiempo", "cambiaria_si": "—", "pagaria": "1.300 €"},
+  {"jurado": "El cliente ideal convencido", "voto": "COMPRO", "frase": "Es justo lo que necesito este año.", "objecion": "Encaja con su problema", "cambiaria_si": "—", "pagaria": "1.500 €"}]}
